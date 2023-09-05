@@ -1,0 +1,84 @@
+*{
+    font-family: sans-serif;
+}
+
+body{
+    background-image: url(walnut-swatch_22.jpg);
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: larger;
+}
+
+#navbar a{
+    text-decoration: none;
+    color: silver;
+}
+
+#navbar a:hover{
+    text-decoration: wavy;
+    color: black;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+.drink-row1{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.drink-row2{
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-evenly;
+}
+
+.food-row{
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-evenly;
+}
+
+.drink{
+    width: 30%;
+} 
+
+
+h1{
+    color: crimson;
+    text-shadow: brown 1px 2px;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    color: silver;
+    text-shadow: black 1px 2px;
+}
+
+.drink-guide1{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.drink-guide2{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.food-guide{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+h2{
+    color: crimson;
+    text-shadow: brown 1px 2px;
+}
